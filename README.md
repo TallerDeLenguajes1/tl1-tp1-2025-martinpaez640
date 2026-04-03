@@ -48,3 +48,5 @@ https://www.datacamp.com/es/tutorial/gitignore
 - En la línea donde se calcula suma faltaba un punto y coma al final de la instrucción; se solucionó añadiéndolo.
 - En la sentencia return 0 también faltaba el punto y coma; se corrigió agregándolo.
 - La función duplicar_numero no modifica el valor original porque recibe el parámetro por valor; para que funcione correctamente debería recibir un puntero (pasaje por referencia).
+## Archivos inecesarios 
+Los archivos inecesarios son las carpetas que crea el editor de codigo, tales como build y .vscode
