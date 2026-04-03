@@ -15,11 +15,11 @@ void f_beta(int *p) {
 }
 
 void f_gamma(int *p) {
-    int temp = *p;
+    int numero = *p;
     int suma = 0;
-    while (temp > 0) {
-        suma = suma + (temp % 10);
-        temp = temp / 10;
+    while (numero > 0) {
+        suma = suma + (numero % 10);
+        numero = numero / 10;
     }
     *p = *p + suma;
 }
