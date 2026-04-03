@@ -34,3 +34,6 @@ Esto indica que el archivo "ignorado.txt" sera ignorado por Git y no se incluira
 Martin Paez
 ## Fuente
 https://www.datacamp.com/es/tutorial/gitignore
+
+## Sobre el codigo misterioso
+* La funcion f_alpha, es una funcion en la cual sus parametros se pasan por referencia, usa operaciones como suma, divicion entera y optiene el resto con el operador "%". Finalmente la funcion tiene como finalidad recibir un numero para luego invertirlo, se elegieron nombres de variables convenientes num representa el número original que se va procesando, e inverso_num deja claro que almacena el resultado final invertido.
