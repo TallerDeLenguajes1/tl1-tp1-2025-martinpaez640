@@ -50,3 +50,6 @@ https://www.datacamp.com/es/tutorial/gitignore
 - La función duplicar_numero no modifica el valor original porque recibe el parámetro por valor; para que funcione correctamente debería recibir un puntero (pasaje por referencia).
 ## Archivos inecesarios 
 Los archivos inecesarios son las carpetas que crea el editor de codigo, tales como build y .vscode
+## Respuesta del ejercicio 4 g
+Los puntos 2 y 3 dan el mismo resultado porque el puntero guarda la dirección de memoria de la variable, entonces tanto Pnum como &num están mostrando exactamente el mismo lugar en memoria.
+En el punto 4 se obtiene algo distinto: la dirección del propio puntero (&Pnum). Este valor no es igual a los anteriores porque el puntero también es una variable, y como tal tiene su propia ubicación en memoria. Es decir, en este caso no se muestra la dirección del dato, sino la del puntero que lo está apuntando.
